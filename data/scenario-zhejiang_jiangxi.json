@@ -8,8 +8,8 @@
   "startTime": "06:00",
   "hoursPerTurn": 6,
   "startingPhase": "japanese",
-  "version": "map-v3-urban-defense",
-  "notes": "浙赣会战地图V3：在V2基础上密集补充县城、集镇、交通节点，并强化金华—兰溪—衢州—江山—玉山—上饶及机场、关隘的野战工事、碉堡、据点与城防墙/街垒抽象。既有地形与守备设施不删除。",
+  "version": "0.12.1-objectives-50turn",
+  "notes": "浙赣会战地图V3：在V2基础上密集补充县城、集镇、交通节点，并强化金华—兰溪—衢州—江山—玉山—上饶及机场、关隘的野战工事、碉堡、据点与城防墙/街垒抽象。既有地形与守备设施不删除。；战略目标兼容修复：总时限50回合，阶段目标16/18/27/30/38/42/46/50回合。",
   "map": {
     "id": "zhejiang_jiangxi_1942",
     "name": "浙赣会战战区",
@@ -24827,13 +24827,285 @@
     }
   },
   "victoryConditions": {
-    "deadlineTurn": 160,
-    "chinese": [],
-    "japanese": []
+    "deadlineTurn": 50,
+    "chinese": {
+      "defendObjectivesUntilDeadline": {
+        "requiredCount": 3,
+        "objectives": [
+          {
+            "id": "jinhua",
+            "nameZh": "金华",
+            "q": 87,
+            "r": 38
+          },
+          {
+            "id": "lanxi",
+            "nameZh": "兰溪",
+            "q": 79,
+            "r": 38
+          },
+          {
+            "id": "quzhou_airfield",
+            "nameZh": "衢州机场",
+            "q": 63,
+            "r": 42
+          },
+          {
+            "id": "quxian",
+            "nameZh": "衢县",
+            "q": 61,
+            "r": 43
+          },
+          {
+            "id": "yushan",
+            "nameZh": "玉山",
+            "q": 47,
+            "r": 46
+          },
+          {
+            "id": "lishui",
+            "nameZh": "丽水",
+            "q": 88,
+            "r": 57
+          },
+          {
+            "id": "xianxia",
+            "nameZh": "仙霞关",
+            "q": 59,
+            "r": 60
+          },
+          {
+            "id": "shangrao",
+            "nameZh": "上饶",
+            "q": 39,
+            "r": 48
+          }
+        ],
+        "successText": "坚持至第50回合，并保持至少3个主要战略据点未被日军控制。"
+      }
+    },
+    "japanese": {
+      "captureObjectives": {
+        "requiredCount": 6,
+        "objectives": [
+          {
+            "id": "jinhua",
+            "nameZh": "金华",
+            "q": 87,
+            "r": 38
+          },
+          {
+            "id": "lanxi",
+            "nameZh": "兰溪",
+            "q": 79,
+            "r": 38
+          },
+          {
+            "id": "quzhou_airfield",
+            "nameZh": "衢州机场",
+            "q": 63,
+            "r": 42
+          },
+          {
+            "id": "quxian",
+            "nameZh": "衢县",
+            "q": 61,
+            "r": 43
+          },
+          {
+            "id": "yushan",
+            "nameZh": "玉山",
+            "q": 47,
+            "r": 46
+          },
+          {
+            "id": "lishui",
+            "nameZh": "丽水",
+            "q": 88,
+            "r": 57
+          },
+          {
+            "id": "xianxia",
+            "nameZh": "仙霞关",
+            "q": 59,
+            "r": 60
+          },
+          {
+            "id": "shangrao",
+            "nameZh": "上饶",
+            "q": 39,
+            "r": 48
+          }
+        ],
+        "successText": "第50回合结束前夺取至少6个主要战略据点。"
+      }
+    }
   },
   "strategicObjectives": {
-    "chinese": [],
-    "japanese": []
+    "chinese": [
+      {
+        "id": "hold_jinhua",
+        "title": "坚守：金华",
+        "description": "阻止日军在第16回合结束前完全控制金华。",
+        "priority": "primary",
+        "deadlineTurn": 16,
+        "q": 87,
+        "r": 38,
+        "action": "defend"
+      },
+      {
+        "id": "hold_lanxi",
+        "title": "坚守：兰溪",
+        "description": "阻止日军在第18回合结束前完全控制兰溪。",
+        "priority": "secondary",
+        "deadlineTurn": 18,
+        "q": 79,
+        "r": 38,
+        "action": "defend"
+      },
+      {
+        "id": "hold_quzhou_airfield",
+        "title": "坚守：衢州机场",
+        "description": "阻止日军在第27回合结束前完全控制衢州机场。",
+        "priority": "secondary",
+        "deadlineTurn": 27,
+        "q": 63,
+        "r": 42,
+        "action": "defend"
+      },
+      {
+        "id": "hold_quxian",
+        "title": "坚守：衢县",
+        "description": "阻止日军在第30回合结束前完全控制衢县。",
+        "priority": "primary",
+        "deadlineTurn": 30,
+        "q": 61,
+        "r": 43,
+        "action": "defend"
+      },
+      {
+        "id": "hold_yushan",
+        "title": "坚守：玉山",
+        "description": "阻止日军在第38回合结束前完全控制玉山。",
+        "priority": "secondary",
+        "deadlineTurn": 38,
+        "q": 47,
+        "r": 46,
+        "action": "defend"
+      },
+      {
+        "id": "hold_lishui",
+        "title": "坚守：丽水",
+        "description": "阻止日军在第42回合结束前完全控制丽水。",
+        "priority": "secondary",
+        "deadlineTurn": 42,
+        "q": 88,
+        "r": 57,
+        "action": "defend"
+      },
+      {
+        "id": "hold_xianxia",
+        "title": "坚守：仙霞关",
+        "description": "阻止日军在第46回合结束前完全控制仙霞关。",
+        "priority": "secondary",
+        "deadlineTurn": 46,
+        "q": 59,
+        "r": 60,
+        "action": "defend"
+      },
+      {
+        "id": "hold_shangrao",
+        "title": "坚守：上饶",
+        "description": "阻止日军在第50回合结束前完全控制上饶。",
+        "priority": "primary",
+        "deadlineTurn": 50,
+        "q": 39,
+        "r": 48,
+        "action": "defend"
+      }
+    ],
+    "japanese": [
+      {
+        "id": "capture_jinhua",
+        "title": "攻占：金华",
+        "description": "在第16回合结束前夺取并控制金华。",
+        "priority": "primary",
+        "deadlineTurn": 16,
+        "q": 87,
+        "r": 38,
+        "action": "capture"
+      },
+      {
+        "id": "capture_lanxi",
+        "title": "攻占：兰溪",
+        "description": "在第18回合结束前夺取并控制兰溪。",
+        "priority": "secondary",
+        "deadlineTurn": 18,
+        "q": 79,
+        "r": 38,
+        "action": "capture"
+      },
+      {
+        "id": "capture_quzhou_airfield",
+        "title": "攻占：衢州机场",
+        "description": "在第27回合结束前夺取并控制衢州机场。",
+        "priority": "secondary",
+        "deadlineTurn": 27,
+        "q": 63,
+        "r": 42,
+        "action": "capture"
+      },
+      {
+        "id": "capture_quxian",
+        "title": "攻占：衢县",
+        "description": "在第30回合结束前夺取并控制衢县。",
+        "priority": "primary",
+        "deadlineTurn": 30,
+        "q": 61,
+        "r": 43,
+        "action": "capture"
+      },
+      {
+        "id": "capture_yushan",
+        "title": "攻占：玉山",
+        "description": "在第38回合结束前夺取并控制玉山。",
+        "priority": "secondary",
+        "deadlineTurn": 38,
+        "q": 47,
+        "r": 46,
+        "action": "capture"
+      },
+      {
+        "id": "capture_lishui",
+        "title": "攻占：丽水",
+        "description": "在第42回合结束前夺取并控制丽水。",
+        "priority": "secondary",
+        "deadlineTurn": 42,
+        "q": 88,
+        "r": 57,
+        "action": "capture"
+      },
+      {
+        "id": "capture_xianxia",
+        "title": "攻占：仙霞关",
+        "description": "在第46回合结束前夺取并控制仙霞关。",
+        "priority": "secondary",
+        "deadlineTurn": 46,
+        "q": 59,
+        "r": 60,
+        "action": "capture"
+      },
+      {
+        "id": "capture_shangrao",
+        "title": "攻占：上饶",
+        "description": "在第50回合结束前夺取并控制上饶。",
+        "priority": "primary",
+        "deadlineTurn": 50,
+        "q": 39,
+        "r": 48,
+        "action": "capture"
+      }
+    ]
   },
   "mapRevision": {
     "scope": "杭州湾西南缘—金华—衢州—上饶—鹰潭—南昌，并向南覆盖丽水、仙霞岭与临川方向",
