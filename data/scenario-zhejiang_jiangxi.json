@@ -6,15 +6,10 @@
   "scenario": "浙赣会战",
   "date": "1942-05-15",
   "startTime": "06:00",
-  "hoursPerTurn": 24,
+  "hoursPerTurn": 6,
   "startingPhase": "japanese",
-  "version": "0.12.0-zhejiang-jiangxi",
-  "notes": [
-    "地图完整版：重点还原1942年浙赣会战的浙赣铁路、金衢盆地、衢州决战区及浙江连续山系。",
-    "日军东线历史进攻出发地域包括富阳、萧山、绍兴、上虞、奉化等方向；西线以南昌方向为起点。",
-    "地图暂不配置部队，便于先校正地理、县城、山脉、河流和交通线。",
-    "山系标签通过 settlement/hill 类型显示；实际阻隔由连续 hill/mountain 六角格构成。"
-  ],
+  "version": "map-v3-urban-defense",
+  "notes": "浙赣会战地图V3：在V2基础上密集补充县城、集镇、交通节点，并强化金华—兰溪—衢州—江山—玉山—上饶及机场、关隘的野战工事、碉堡、据点与城防墙/街垒抽象。既有地形与守备设施不删除。",
   "map": {
     "id": "zhejiang_jiangxi_1942",
     "name": "浙赣会战战区",
@@ -19607,7 +19602,7 @@
         "nameZh": "杭州",
         "q": 109,
         "r": 13,
-        "type": "city",
+        "type": "major_city",
         "strategicObjective": true
       },
       {
@@ -19616,7 +19611,7 @@
         "nameZh": "杭县",
         "q": 107,
         "r": 15,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -19625,7 +19620,7 @@
         "nameZh": "余杭",
         "q": 102,
         "r": 11,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -19634,7 +19629,7 @@
         "nameZh": "临安",
         "q": 94,
         "r": 11,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -19643,7 +19638,7 @@
         "nameZh": "於潜",
         "q": 86,
         "r": 11,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -19652,7 +19647,7 @@
         "nameZh": "昌化",
         "q": 76,
         "r": 9,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -19661,7 +19656,7 @@
         "nameZh": "富阳",
         "q": 98,
         "r": 19,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -19670,7 +19665,7 @@
         "nameZh": "新登",
         "q": 90,
         "r": 20,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -19679,7 +19674,7 @@
         "nameZh": "桐庐",
         "q": 82,
         "r": 24,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -19688,7 +19683,7 @@
         "nameZh": "分水",
         "q": 76,
         "r": 20,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -19697,7 +19692,7 @@
         "nameZh": "建德",
         "q": 71,
         "r": 27,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -19706,7 +19701,7 @@
         "nameZh": "寿昌",
         "q": 66,
         "r": 30,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -19715,7 +19710,7 @@
         "nameZh": "淳安",
         "q": 60,
         "r": 22,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -19724,7 +19719,7 @@
         "nameZh": "遂安",
         "q": 57,
         "r": 27,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -19733,7 +19728,7 @@
         "nameZh": "萧山",
         "q": 112,
         "r": 18,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -19742,7 +19737,7 @@
         "nameZh": "绍兴",
         "q": 118,
         "r": 21,
-        "type": "city",
+        "type": "major_city",
         "strategicObjective": true
       },
       {
@@ -19751,7 +19746,7 @@
         "nameZh": "上虞",
         "q": 124,
         "r": 19,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -19760,7 +19755,7 @@
         "nameZh": "诸暨",
         "q": 105,
         "r": 27,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -19769,7 +19764,7 @@
         "nameZh": "嵊县",
         "q": 117,
         "r": 29,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -19778,7 +19773,7 @@
         "nameZh": "新昌",
         "q": 121,
         "r": 34,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -19787,7 +19782,7 @@
         "nameZh": "奉化",
         "q": 126,
         "r": 27,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -19796,7 +19791,7 @@
         "nameZh": "天台",
         "q": 126,
         "r": 39,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -19805,7 +19800,7 @@
         "nameZh": "浦江",
         "q": 96,
         "r": 31,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -19814,7 +19809,7 @@
         "nameZh": "义乌",
         "q": 98,
         "r": 36,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -19823,7 +19818,7 @@
         "nameZh": "东阳",
         "q": 106,
         "r": 38,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -19832,7 +19827,7 @@
         "nameZh": "磐安",
         "q": 111,
         "r": 43,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -19841,7 +19836,7 @@
         "nameZh": "金华",
         "q": 87,
         "r": 38,
-        "type": "city",
+        "type": "major_city",
         "strategicObjective": true
       },
       {
@@ -19859,7 +19854,7 @@
         "nameZh": "汤溪",
         "q": 75,
         "r": 42,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -19868,7 +19863,7 @@
         "nameZh": "武义",
         "q": 91,
         "r": 46,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -19877,7 +19872,7 @@
         "nameZh": "永康",
         "q": 99,
         "r": 47,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -19886,7 +19881,7 @@
         "nameZh": "龙游",
         "q": 70,
         "r": 41,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -19895,7 +19890,7 @@
         "nameZh": "衢县",
         "q": 61,
         "r": 43,
-        "type": "city",
+        "type": "major_city",
         "strategicObjective": true
       },
       {
@@ -19904,7 +19899,7 @@
         "nameZh": "常山",
         "q": 53,
         "r": 44,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -19913,7 +19908,7 @@
         "nameZh": "开化",
         "q": 50,
         "r": 34,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -19922,7 +19917,7 @@
         "nameZh": "江山",
         "q": 57,
         "r": 52,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -19931,7 +19926,7 @@
         "nameZh": "遂昌",
         "q": 68,
         "r": 52,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -19940,7 +19935,7 @@
         "nameZh": "松阳",
         "q": 75,
         "r": 57,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -19949,7 +19944,7 @@
         "nameZh": "丽水",
         "q": 88,
         "r": 57,
-        "type": "city",
+        "type": "major_city",
         "strategicObjective": true
       },
       {
@@ -19958,7 +19953,7 @@
         "nameZh": "宣平",
         "q": 84,
         "r": 49,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -19967,7 +19962,7 @@
         "nameZh": "缙云",
         "q": 96,
         "r": 52,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -19976,7 +19971,7 @@
         "nameZh": "青田",
         "q": 101,
         "r": 65,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -19985,7 +19980,7 @@
         "nameZh": "云和",
         "q": 82,
         "r": 65,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -19994,7 +19989,7 @@
         "nameZh": "景宁",
         "q": 87,
         "r": 71,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -20003,7 +19998,7 @@
         "nameZh": "龙泉",
         "q": 70,
         "r": 69,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -20012,7 +20007,7 @@
         "nameZh": "庆元",
         "q": 67,
         "r": 76,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -20021,7 +20016,7 @@
         "nameZh": "玉山",
         "q": 47,
         "r": 46,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -20030,7 +20025,7 @@
         "nameZh": "广丰",
         "q": 43,
         "r": 54,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -20039,7 +20034,7 @@
         "nameZh": "上饶",
         "q": 39,
         "r": 48,
-        "type": "city",
+        "type": "major_city",
         "strategicObjective": true
       },
       {
@@ -20048,7 +20043,7 @@
         "nameZh": "铅山",
         "q": 34,
         "r": 56,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -20057,7 +20052,7 @@
         "nameZh": "横峰",
         "q": 32,
         "r": 49,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -20066,7 +20061,7 @@
         "nameZh": "弋阳",
         "q": 26,
         "r": 50,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -20075,7 +20070,7 @@
         "nameZh": "贵溪",
         "q": 20,
         "r": 51,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -20093,7 +20088,7 @@
         "nameZh": "余江",
         "q": 12,
         "r": 51,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -20102,7 +20097,7 @@
         "nameZh": "东乡",
         "q": 9,
         "r": 49,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -20111,7 +20106,7 @@
         "nameZh": "进贤",
         "q": 6,
         "r": 46,
-        "type": "town",
+        "type": "county",
         "strategicObjective": true
       },
       {
@@ -20120,7 +20115,7 @@
         "nameZh": "南昌",
         "q": 2,
         "r": 43,
-        "type": "city",
+        "type": "major_city",
         "strategicObjective": true
       },
       {
@@ -20138,7 +20133,7 @@
         "nameZh": "南城",
         "q": 11,
         "r": 67,
-        "type": "town",
+        "type": "county",
         "strategicObjective": false
       },
       {
@@ -20147,7 +20142,7 @@
         "nameZh": "仙霞关",
         "q": 59,
         "r": 60,
-        "type": "town",
+        "type": "pass",
         "strategicObjective": true
       },
       {
@@ -20156,7 +20151,7 @@
         "nameZh": "衢州机场",
         "q": 63,
         "r": 42,
-        "type": "town",
+        "type": "airfield",
         "strategicObjective": true
       },
       {
@@ -20165,7 +20160,7 @@
         "nameZh": "丽水机场",
         "q": 90,
         "r": 58,
-        "type": "town",
+        "type": "airfield",
         "strategicObjective": true
       },
       {
@@ -20174,7 +20169,7 @@
         "nameZh": "玉山机场",
         "q": 49,
         "r": 45,
-        "type": "town",
+        "type": "airfield",
         "strategicObjective": true
       },
       {
@@ -20246,7 +20241,7 @@
         "nameZh": "天目山脉",
         "q": 82,
         "r": 6,
-        "type": "town",
+        "type": "hill",
         "strategicObjective": false
       },
       {
@@ -20255,7 +20250,7 @@
         "nameZh": "会稽山脉",
         "q": 111,
         "r": 26,
-        "type": "town",
+        "type": "hill",
         "strategicObjective": false
       },
       {
@@ -20264,7 +20259,7 @@
         "nameZh": "四明山脉",
         "q": 120,
         "r": 12,
-        "type": "town",
+        "type": "hill",
         "strategicObjective": false
       },
       {
@@ -20273,7 +20268,7 @@
         "nameZh": "天台山脉",
         "q": 122,
         "r": 42,
-        "type": "town",
+        "type": "hill",
         "strategicObjective": false
       },
       {
@@ -20282,7 +20277,7 @@
         "nameZh": "仙霞岭",
         "q": 62,
         "r": 65,
-        "type": "town",
+        "type": "hill",
         "strategicObjective": false
       },
       {
@@ -20291,7 +20286,7 @@
         "nameZh": "括苍山",
         "q": 92,
         "r": 59,
-        "type": "town",
+        "type": "hill",
         "strategicObjective": false
       },
       {
@@ -20300,7 +20295,7 @@
         "nameZh": "洞宫山",
         "q": 80,
         "r": 72,
-        "type": "town",
+        "type": "hill",
         "strategicObjective": false
       },
       {
@@ -20309,7 +20304,7 @@
         "nameZh": "怀玉山",
         "q": 42,
         "r": 40,
-        "type": "town",
+        "type": "hill",
         "strategicObjective": false
       },
       {
@@ -20318,6 +20313,1113 @@
         "nameZh": "浙西南山地",
         "q": 75,
         "r": 63,
+        "type": "hill",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_001",
+        "name": "留下",
+        "nameZh": "留下",
+        "q": 106,
+        "r": 14,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_002",
+        "name": "笕桥",
+        "nameZh": "笕桥",
+        "q": 112,
+        "r": 13,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_003",
+        "name": "乔司",
+        "nameZh": "乔司",
+        "q": 114,
+        "r": 12,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_004",
+        "name": "塘栖",
+        "nameZh": "塘栖",
+        "q": 108,
+        "r": 9,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_005",
+        "name": "瓶窑",
+        "nameZh": "瓶窑",
+        "q": 103,
+        "r": 8,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_006",
+        "name": "良渚",
+        "nameZh": "良渚",
+        "q": 106,
+        "r": 10,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_007",
+        "name": "转塘",
+        "nameZh": "转塘",
+        "q": 106,
+        "r": 17,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_008",
+        "name": "龙坞",
+        "nameZh": "龙坞",
+        "q": 104,
+        "r": 17,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_009",
+        "name": "场口",
+        "nameZh": "场口",
+        "q": 103,
+        "r": 20,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_010",
+        "name": "龙门",
+        "nameZh": "龙门",
+        "q": 99,
+        "r": 25,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_011",
+        "name": "窈口",
+        "nameZh": "窈口",
+        "q": 96,
+        "r": 27,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_012",
+        "name": "瑶琳",
+        "nameZh": "瑶琳",
+        "q": 94,
+        "r": 24,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_013",
+        "name": "梅城",
+        "nameZh": "梅城",
+        "q": 87,
+        "r": 27,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_014",
+        "name": "乾潭",
+        "nameZh": "乾潭",
+        "q": 91,
+        "r": 28,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_015",
+        "name": "大同",
+        "nameZh": "大同",
+        "q": 84,
+        "r": 29,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_016",
+        "name": "航头",
+        "nameZh": "航头",
+        "q": 88,
+        "r": 31,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_017",
+        "name": "临浦",
+        "nameZh": "临浦",
+        "q": 112,
+        "r": 22,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_018",
+        "name": "义桥",
+        "nameZh": "义桥",
+        "q": 109,
+        "r": 20,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_019",
+        "name": "戴村",
+        "nameZh": "戴村",
+        "q": 111,
+        "r": 24,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_020",
+        "name": "衙前",
+        "nameZh": "衙前",
+        "q": 117,
+        "r": 18,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_021",
+        "name": "瓜沥",
+        "nameZh": "瓜沥",
+        "q": 120,
+        "r": 16,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_022",
+        "name": "坎山",
+        "nameZh": "坎山",
+        "q": 118,
+        "r": 17,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_023",
+        "name": "钱清",
+        "nameZh": "钱清",
+        "q": 121,
+        "r": 21,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_024",
+        "name": "柯桥",
+        "nameZh": "柯桥",
+        "q": 123,
+        "r": 22,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_025",
+        "name": "皋埠",
+        "nameZh": "皋埠",
+        "q": 126,
+        "r": 24,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_026",
+        "name": "枫桥",
+        "nameZh": "枫桥",
+        "q": 113,
+        "r": 29,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_027",
+        "name": "牌头",
+        "nameZh": "牌头",
+        "q": 110,
+        "r": 31,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_028",
+        "name": "璜山",
+        "nameZh": "璜山",
+        "q": 115,
+        "r": 32,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_029",
+        "name": "安华",
+        "nameZh": "安华",
+        "q": 111,
+        "r": 34,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_030",
+        "name": "店口",
+        "nameZh": "店口",
+        "q": 108,
+        "r": 28,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_031",
+        "name": "次坞",
+        "nameZh": "次坞",
+        "q": 106,
+        "r": 29,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_032",
+        "name": "湄池",
+        "nameZh": "湄池",
+        "q": 109,
+        "r": 30,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_033",
+        "name": "佛堂",
+        "nameZh": "佛堂",
+        "q": 103,
+        "r": 36,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_034",
+        "name": "苏溪",
+        "nameZh": "苏溪",
+        "q": 104,
+        "r": 32,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_035",
+        "name": "廿三里",
+        "nameZh": "廿三里",
+        "q": 106,
+        "r": 34,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_036",
+        "name": "赤岸",
+        "nameZh": "赤岸",
+        "q": 102,
+        "r": 39,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_037",
+        "name": "上溪",
+        "nameZh": "上溪",
+        "q": 99,
+        "r": 35,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_038",
+        "name": "郑家坞",
+        "nameZh": "郑家坞",
+        "q": 98,
+        "r": 31,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_039",
+        "name": "黄宅",
+        "nameZh": "黄宅",
+        "q": 97,
+        "r": 33,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_040",
+        "name": "白马",
+        "nameZh": "白马",
+        "q": 95,
+        "r": 34,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_041",
+        "name": "傅村",
+        "nameZh": "傅村",
+        "q": 94,
+        "r": 37,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_042",
+        "name": "曹宅",
+        "nameZh": "曹宅",
+        "q": 90,
+        "r": 38,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_043",
+        "name": "鞋塘",
+        "nameZh": "鞋塘",
+        "q": 93,
+        "r": 39,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_044",
+        "name": "汤溪镇",
+        "nameZh": "汤溪镇",
+        "q": 75,
+        "r": 41,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_045",
+        "name": "罗埠",
+        "nameZh": "罗埠",
+        "q": 72,
+        "r": 42,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_046",
+        "name": "洋埠",
+        "nameZh": "洋埠",
+        "q": 69,
+        "r": 43,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_047",
+        "name": "游埠",
+        "nameZh": "游埠",
+        "q": 74,
+        "r": 39,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_048",
+        "name": "诸葛",
+        "nameZh": "诸葛",
+        "q": 76,
+        "r": 35,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_049",
+        "name": "横溪",
+        "nameZh": "横溪",
+        "q": 83,
+        "r": 42,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_050",
+        "name": "白龙桥",
+        "nameZh": "白龙桥",
+        "q": 84,
+        "r": 39,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_051",
+        "name": "岭下",
+        "nameZh": "岭下",
+        "q": 88,
+        "r": 42,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_052",
+        "name": "雅畈",
+        "nameZh": "雅畈",
+        "q": 87,
+        "r": 44,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_053",
+        "name": "古方",
+        "nameZh": "古方",
+        "q": 91,
+        "r": 46,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_054",
+        "name": "桐琴",
+        "nameZh": "桐琴",
+        "q": 94,
+        "r": 45,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_055",
+        "name": "泉溪",
+        "nameZh": "泉溪",
+        "q": 92,
+        "r": 47,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_056",
+        "name": "永康方岩",
+        "nameZh": "永康方岩",
+        "q": 96,
+        "r": 46,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_057",
+        "name": "湖镇",
+        "nameZh": "湖镇",
+        "q": 68,
+        "r": 40,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_058",
+        "name": "詹家",
+        "nameZh": "詹家",
+        "q": 66,
+        "r": 42,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_059",
+        "name": "模环",
+        "nameZh": "模环",
+        "q": 65,
+        "r": 39,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_060",
+        "name": "小南海",
+        "nameZh": "小南海",
+        "q": 63,
+        "r": 40,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_061",
+        "name": "樟潭",
+        "nameZh": "樟潭",
+        "q": 60,
+        "r": 42,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_062",
+        "name": "航埠",
+        "nameZh": "航埠",
+        "q": 58,
+        "r": 44,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_063",
+        "name": "沟溪",
+        "nameZh": "沟溪",
+        "q": 56,
+        "r": 43,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_064",
+        "name": "廿里",
+        "nameZh": "廿里",
+        "q": 64,
+        "r": 46,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_065",
+        "name": "峡口",
+        "nameZh": "峡口",
+        "q": 56,
+        "r": 50,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_066",
+        "name": "贺村",
+        "nameZh": "贺村",
+        "q": 55,
+        "r": 53,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_067",
+        "name": "清湖",
+        "nameZh": "清湖",
+        "q": 57,
+        "r": 55,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_068",
+        "name": "石门",
+        "nameZh": "石门",
+        "q": 53,
+        "r": 49,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_069",
+        "name": "华埠",
+        "nameZh": "华埠",
+        "q": 52,
+        "r": 38,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_070",
+        "name": "马金",
+        "nameZh": "马金",
+        "q": 50,
+        "r": 34,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_071",
+        "name": "池淮",
+        "nameZh": "池淮",
+        "q": 48,
+        "r": 36,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_072",
+        "name": "芳村",
+        "nameZh": "芳村",
+        "q": 49,
+        "r": 42,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_073",
+        "name": "招贤",
+        "nameZh": "招贤",
+        "q": 51,
+        "r": 44,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_074",
+        "name": "双明",
+        "nameZh": "双明",
+        "q": 47,
+        "r": 43,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_075",
+        "name": "临湖",
+        "nameZh": "临湖",
+        "q": 45,
+        "r": 44,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_076",
+        "name": "冰溪",
+        "nameZh": "冰溪",
+        "q": 46,
+        "r": 45,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_077",
+        "name": "岩瑞",
+        "nameZh": "岩瑞",
+        "q": 44,
+        "r": 47,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_078",
+        "name": "灵溪",
+        "nameZh": "灵溪",
+        "q": 39,
+        "r": 49,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_079",
+        "name": "皂头",
+        "nameZh": "皂头",
+        "q": 38,
+        "r": 50,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_080",
+        "name": "茶亭",
+        "nameZh": "茶亭",
+        "q": 40,
+        "r": 52,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_081",
+        "name": "郑坊",
+        "nameZh": "郑坊",
+        "q": 36,
+        "r": 49,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_082",
+        "name": "河口",
+        "nameZh": "河口",
+        "q": 34,
+        "r": 51,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_083",
+        "name": "湖坊",
+        "nameZh": "湖坊",
+        "q": 32,
+        "r": 50,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_084",
+        "name": "葛源",
+        "nameZh": "葛源",
+        "q": 31,
+        "r": 47,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_085",
+        "name": "司铺",
+        "nameZh": "司铺",
+        "q": 29,
+        "r": 49,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_086",
+        "name": "圭峰",
+        "nameZh": "圭峰",
+        "q": 27,
+        "r": 51,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_087",
+        "name": "杨桥",
+        "nameZh": "杨桥",
+        "q": 25,
+        "r": 53,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_088",
+        "name": "志光",
+        "nameZh": "志光",
+        "q": 23,
+        "r": 54,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_089",
+        "name": "罗河",
+        "nameZh": "罗河",
+        "q": 21,
+        "r": 55,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_090",
+        "name": "余江镇",
+        "nameZh": "余江镇",
+        "q": 19,
+        "r": 56,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_091",
+        "name": "刘家站",
+        "nameZh": "刘家站",
+        "q": 17,
+        "r": 57,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_092",
+        "name": "温家圳",
+        "nameZh": "温家圳",
+        "q": 15,
+        "r": 58,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_093",
+        "name": "李渡",
+        "nameZh": "李渡",
+        "q": 13,
+        "r": 60,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_094",
+        "name": "文港",
+        "nameZh": "文港",
+        "q": 12,
+        "r": 58,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_095",
+        "name": "架桥",
+        "nameZh": "架桥",
+        "q": 10,
+        "r": 59,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_096",
+        "name": "向塘",
+        "nameZh": "向塘",
+        "q": 8,
+        "r": 61,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_097",
+        "name": "莲塘",
+        "nameZh": "莲塘",
+        "q": 6,
+        "r": 60,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_098",
+        "name": "廿八都",
+        "nameZh": "廿八都",
+        "q": 58,
+        "r": 61,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_099",
+        "name": "保安",
+        "nameZh": "保安",
+        "q": 60,
+        "r": 58,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_100",
+        "name": "峡口镇",
+        "nameZh": "峡口镇",
+        "q": 61,
+        "r": 56,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_101",
+        "name": "长台",
+        "nameZh": "长台",
+        "q": 63,
+        "r": 53,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_102",
+        "name": "石门镇",
+        "nameZh": "石门镇",
+        "q": 66,
+        "r": 54,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_103",
+        "name": "大街",
+        "nameZh": "大街",
+        "q": 69,
+        "r": 55,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_104",
+        "name": "湖山",
+        "nameZh": "湖山",
+        "q": 72,
+        "r": 57,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_105",
+        "name": "北界",
+        "nameZh": "北界",
+        "q": 75,
+        "r": 55,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_106",
+        "name": "王村口",
+        "nameZh": "王村口",
+        "q": 78,
+        "r": 57,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_107",
+        "name": "碧湖",
+        "nameZh": "碧湖",
+        "q": 87,
+        "r": 61,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_108",
+        "name": "大港头",
+        "nameZh": "大港头",
+        "q": 85,
+        "r": 63,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_109",
+        "name": "石帆",
+        "nameZh": "石帆",
+        "q": 91,
+        "r": 62,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_110",
+        "name": "船寮",
+        "nameZh": "船寮",
+        "q": 94,
+        "r": 64,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_111",
+        "name": "温溪",
+        "nameZh": "温溪",
+        "q": 97,
+        "r": 65,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_112",
+        "name": "鹤城",
+        "nameZh": "鹤城",
+        "q": 99,
+        "r": 67,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_113",
+        "name": "小梅",
+        "nameZh": "小梅",
+        "q": 80,
+        "r": 69,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_114",
+        "name": "安仁",
+        "nameZh": "安仁",
+        "q": 78,
+        "r": 67,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_115",
+        "name": "查田",
+        "nameZh": "查田",
+        "q": 76,
+        "r": 70,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_116",
+        "name": "樟村",
+        "nameZh": "樟村",
+        "q": 116,
+        "r": 28,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_117",
+        "name": "三界",
+        "nameZh": "三界",
+        "q": 118,
+        "r": 31,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_118",
+        "name": "长乐",
+        "nameZh": "长乐",
+        "q": 115,
+        "r": 35,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_119",
+        "name": "甘霖",
+        "nameZh": "甘霖",
+        "q": 119,
+        "r": 34,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_120",
+        "name": "崇仁",
+        "nameZh": "崇仁",
+        "q": 121,
+        "r": 32,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_121",
+        "name": "黄泽",
+        "nameZh": "黄泽",
+        "q": 123,
+        "r": 30,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_122",
+        "name": "儒岙",
+        "nameZh": "儒岙",
+        "q": 124,
+        "r": 34,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "loc_123",
+        "name": "白鹤",
+        "nameZh": "白鹤",
+        "q": 126,
+        "r": 36,
         "type": "town",
         "strategicObjective": false
       }
@@ -20512,131 +21614,3226 @@
         "progress": 100,
         "name": "仙霞关关隘阵地",
         "nameZh": "仙霞关关隘阵地"
+      },
+      {
+        "q": 87,
+        "r": 38,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "金华城防核心",
+        "nameZh": "金华城防核心"
+      },
+      {
+        "q": 88,
+        "r": 38,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "金华外围工事1",
+        "nameZh": "金华外围工事1"
+      },
+      {
+        "q": 86,
+        "r": 38,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "金华外围工事2",
+        "nameZh": "金华外围工事2"
+      },
+      {
+        "q": 87,
+        "r": 39,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "金华外围工事3",
+        "nameZh": "金华外围工事3"
+      },
+      {
+        "q": 87,
+        "r": 37,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "金华外围工事4",
+        "nameZh": "金华外围工事4"
+      },
+      {
+        "q": 88,
+        "r": 37,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "金华外围工事5",
+        "nameZh": "金华外围工事5"
+      },
+      {
+        "q": 86,
+        "r": 39,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "金华外围工事6",
+        "nameZh": "金华外围工事6"
+      },
+      {
+        "q": 89,
+        "r": 38,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "金华碉堡1",
+        "nameZh": "金华碉堡1"
+      },
+      {
+        "q": 85,
+        "r": 38,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "金华碉堡2",
+        "nameZh": "金华碉堡2"
+      },
+      {
+        "q": 87,
+        "r": 40,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "金华碉堡3",
+        "nameZh": "金华碉堡3"
+      },
+      {
+        "q": 87,
+        "r": 36,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "金华碉堡4",
+        "nameZh": "金华碉堡4"
+      },
+      {
+        "q": 89,
+        "r": 37,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "金华碉堡5",
+        "nameZh": "金华碉堡5"
+      },
+      {
+        "q": 85,
+        "r": 39,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "金华碉堡6",
+        "nameZh": "金华碉堡6"
+      },
+      {
+        "q": 79,
+        "r": 38,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "兰溪城防核心",
+        "nameZh": "兰溪城防核心"
+      },
+      {
+        "q": 80,
+        "r": 38,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "兰溪外围工事1",
+        "nameZh": "兰溪外围工事1"
+      },
+      {
+        "q": 78,
+        "r": 38,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "兰溪外围工事2",
+        "nameZh": "兰溪外围工事2"
+      },
+      {
+        "q": 79,
+        "r": 39,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "兰溪外围工事3",
+        "nameZh": "兰溪外围工事3"
+      },
+      {
+        "q": 79,
+        "r": 37,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "兰溪外围工事4",
+        "nameZh": "兰溪外围工事4"
+      },
+      {
+        "q": 80,
+        "r": 37,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "兰溪外围工事5",
+        "nameZh": "兰溪外围工事5"
+      },
+      {
+        "q": 78,
+        "r": 39,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "兰溪外围工事6",
+        "nameZh": "兰溪外围工事6"
+      },
+      {
+        "q": 81,
+        "r": 38,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "兰溪碉堡1",
+        "nameZh": "兰溪碉堡1"
+      },
+      {
+        "q": 77,
+        "r": 38,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "兰溪碉堡2",
+        "nameZh": "兰溪碉堡2"
+      },
+      {
+        "q": 79,
+        "r": 40,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "兰溪碉堡3",
+        "nameZh": "兰溪碉堡3"
+      },
+      {
+        "q": 79,
+        "r": 36,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "兰溪碉堡4",
+        "nameZh": "兰溪碉堡4"
+      },
+      {
+        "q": 81,
+        "r": 37,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "兰溪碉堡5",
+        "nameZh": "兰溪碉堡5"
+      },
+      {
+        "q": 77,
+        "r": 39,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "兰溪碉堡6",
+        "nameZh": "兰溪碉堡6"
+      },
+      {
+        "q": 61,
+        "r": 43,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢县城防核心",
+        "nameZh": "衢县城防核心"
+      },
+      {
+        "q": 62,
+        "r": 43,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢县外围工事1",
+        "nameZh": "衢县外围工事1"
+      },
+      {
+        "q": 60,
+        "r": 43,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢县外围工事2",
+        "nameZh": "衢县外围工事2"
+      },
+      {
+        "q": 61,
+        "r": 44,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢县外围工事3",
+        "nameZh": "衢县外围工事3"
+      },
+      {
+        "q": 61,
+        "r": 42,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢县外围工事4",
+        "nameZh": "衢县外围工事4"
+      },
+      {
+        "q": 62,
+        "r": 42,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢县外围工事5",
+        "nameZh": "衢县外围工事5"
+      },
+      {
+        "q": 60,
+        "r": 44,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢县外围工事6",
+        "nameZh": "衢县外围工事6"
+      },
+      {
+        "q": 63,
+        "r": 43,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢县碉堡1",
+        "nameZh": "衢县碉堡1"
+      },
+      {
+        "q": 59,
+        "r": 43,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢县碉堡2",
+        "nameZh": "衢县碉堡2"
+      },
+      {
+        "q": 61,
+        "r": 45,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢县碉堡3",
+        "nameZh": "衢县碉堡3"
+      },
+      {
+        "q": 61,
+        "r": 41,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢县碉堡4",
+        "nameZh": "衢县碉堡4"
+      },
+      {
+        "q": 63,
+        "r": 42,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢县碉堡5",
+        "nameZh": "衢县碉堡5"
+      },
+      {
+        "q": 59,
+        "r": 44,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢县碉堡6",
+        "nameZh": "衢县碉堡6"
+      },
+      {
+        "q": 57,
+        "r": 52,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "江山城防核心",
+        "nameZh": "江山城防核心"
+      },
+      {
+        "q": 58,
+        "r": 52,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "江山外围工事1",
+        "nameZh": "江山外围工事1"
+      },
+      {
+        "q": 56,
+        "r": 52,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "江山外围工事2",
+        "nameZh": "江山外围工事2"
+      },
+      {
+        "q": 57,
+        "r": 53,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "江山外围工事3",
+        "nameZh": "江山外围工事3"
+      },
+      {
+        "q": 57,
+        "r": 51,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "江山外围工事4",
+        "nameZh": "江山外围工事4"
+      },
+      {
+        "q": 58,
+        "r": 51,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "江山外围工事5",
+        "nameZh": "江山外围工事5"
+      },
+      {
+        "q": 56,
+        "r": 53,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "江山外围工事6",
+        "nameZh": "江山外围工事6"
+      },
+      {
+        "q": 59,
+        "r": 52,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "江山碉堡1",
+        "nameZh": "江山碉堡1"
+      },
+      {
+        "q": 55,
+        "r": 52,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "江山碉堡2",
+        "nameZh": "江山碉堡2"
+      },
+      {
+        "q": 57,
+        "r": 54,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "江山碉堡3",
+        "nameZh": "江山碉堡3"
+      },
+      {
+        "q": 57,
+        "r": 50,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "江山碉堡4",
+        "nameZh": "江山碉堡4"
+      },
+      {
+        "q": 59,
+        "r": 51,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "江山碉堡5",
+        "nameZh": "江山碉堡5"
+      },
+      {
+        "q": 55,
+        "r": 53,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "江山碉堡6",
+        "nameZh": "江山碉堡6"
+      },
+      {
+        "q": 53,
+        "r": 44,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "常山城防核心",
+        "nameZh": "常山城防核心"
+      },
+      {
+        "q": 54,
+        "r": 44,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "常山外围工事1",
+        "nameZh": "常山外围工事1"
+      },
+      {
+        "q": 52,
+        "r": 44,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "常山外围工事2",
+        "nameZh": "常山外围工事2"
+      },
+      {
+        "q": 53,
+        "r": 45,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "常山外围工事3",
+        "nameZh": "常山外围工事3"
+      },
+      {
+        "q": 53,
+        "r": 43,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "常山外围工事4",
+        "nameZh": "常山外围工事4"
+      },
+      {
+        "q": 54,
+        "r": 43,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "常山外围工事5",
+        "nameZh": "常山外围工事5"
+      },
+      {
+        "q": 52,
+        "r": 45,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "常山外围工事6",
+        "nameZh": "常山外围工事6"
+      },
+      {
+        "q": 55,
+        "r": 44,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "常山碉堡1",
+        "nameZh": "常山碉堡1"
+      },
+      {
+        "q": 51,
+        "r": 44,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "常山碉堡2",
+        "nameZh": "常山碉堡2"
+      },
+      {
+        "q": 53,
+        "r": 46,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "常山碉堡3",
+        "nameZh": "常山碉堡3"
+      },
+      {
+        "q": 53,
+        "r": 42,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "常山碉堡4",
+        "nameZh": "常山碉堡4"
+      },
+      {
+        "q": 55,
+        "r": 43,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "常山碉堡5",
+        "nameZh": "常山碉堡5"
+      },
+      {
+        "q": 51,
+        "r": 45,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "常山碉堡6",
+        "nameZh": "常山碉堡6"
+      },
+      {
+        "q": 47,
+        "r": 46,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山城防核心",
+        "nameZh": "玉山城防核心"
+      },
+      {
+        "q": 48,
+        "r": 46,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山外围工事1",
+        "nameZh": "玉山外围工事1"
+      },
+      {
+        "q": 46,
+        "r": 46,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山外围工事2",
+        "nameZh": "玉山外围工事2"
+      },
+      {
+        "q": 47,
+        "r": 47,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山外围工事3",
+        "nameZh": "玉山外围工事3"
+      },
+      {
+        "q": 47,
+        "r": 45,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山外围工事4",
+        "nameZh": "玉山外围工事4"
+      },
+      {
+        "q": 48,
+        "r": 45,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山外围工事5",
+        "nameZh": "玉山外围工事5"
+      },
+      {
+        "q": 46,
+        "r": 47,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山外围工事6",
+        "nameZh": "玉山外围工事6"
+      },
+      {
+        "q": 49,
+        "r": 46,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山碉堡1",
+        "nameZh": "玉山碉堡1"
+      },
+      {
+        "q": 45,
+        "r": 46,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山碉堡2",
+        "nameZh": "玉山碉堡2"
+      },
+      {
+        "q": 47,
+        "r": 48,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山碉堡3",
+        "nameZh": "玉山碉堡3"
+      },
+      {
+        "q": 47,
+        "r": 44,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山碉堡4",
+        "nameZh": "玉山碉堡4"
+      },
+      {
+        "q": 49,
+        "r": 45,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山碉堡5",
+        "nameZh": "玉山碉堡5"
+      },
+      {
+        "q": 45,
+        "r": 47,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山碉堡6",
+        "nameZh": "玉山碉堡6"
+      },
+      {
+        "q": 39,
+        "r": 48,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "上饶城防核心",
+        "nameZh": "上饶城防核心"
+      },
+      {
+        "q": 40,
+        "r": 48,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "上饶外围工事1",
+        "nameZh": "上饶外围工事1"
+      },
+      {
+        "q": 38,
+        "r": 48,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "上饶外围工事2",
+        "nameZh": "上饶外围工事2"
+      },
+      {
+        "q": 39,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "上饶外围工事3",
+        "nameZh": "上饶外围工事3"
+      },
+      {
+        "q": 39,
+        "r": 47,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "上饶外围工事4",
+        "nameZh": "上饶外围工事4"
+      },
+      {
+        "q": 40,
+        "r": 47,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "上饶外围工事5",
+        "nameZh": "上饶外围工事5"
+      },
+      {
+        "q": 38,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "上饶外围工事6",
+        "nameZh": "上饶外围工事6"
+      },
+      {
+        "q": 41,
+        "r": 48,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "上饶碉堡1",
+        "nameZh": "上饶碉堡1"
+      },
+      {
+        "q": 37,
+        "r": 48,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "上饶碉堡2",
+        "nameZh": "上饶碉堡2"
+      },
+      {
+        "q": 39,
+        "r": 50,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "上饶碉堡3",
+        "nameZh": "上饶碉堡3"
+      },
+      {
+        "q": 39,
+        "r": 46,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "上饶碉堡4",
+        "nameZh": "上饶碉堡4"
+      },
+      {
+        "q": 41,
+        "r": 47,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "上饶碉堡5",
+        "nameZh": "上饶碉堡5"
+      },
+      {
+        "q": 37,
+        "r": 49,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "上饶碉堡6",
+        "nameZh": "上饶碉堡6"
+      },
+      {
+        "q": 43,
+        "r": 54,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "广丰城防核心",
+        "nameZh": "广丰城防核心"
+      },
+      {
+        "q": 44,
+        "r": 54,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "广丰外围工事1",
+        "nameZh": "广丰外围工事1"
+      },
+      {
+        "q": 42,
+        "r": 54,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "广丰外围工事2",
+        "nameZh": "广丰外围工事2"
+      },
+      {
+        "q": 43,
+        "r": 55,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "广丰外围工事3",
+        "nameZh": "广丰外围工事3"
+      },
+      {
+        "q": 43,
+        "r": 53,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "广丰外围工事4",
+        "nameZh": "广丰外围工事4"
+      },
+      {
+        "q": 44,
+        "r": 53,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "广丰外围工事5",
+        "nameZh": "广丰外围工事5"
+      },
+      {
+        "q": 42,
+        "r": 55,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "广丰外围工事6",
+        "nameZh": "广丰外围工事6"
+      },
+      {
+        "q": 45,
+        "r": 54,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "广丰碉堡1",
+        "nameZh": "广丰碉堡1"
+      },
+      {
+        "q": 41,
+        "r": 54,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "广丰碉堡2",
+        "nameZh": "广丰碉堡2"
+      },
+      {
+        "q": 43,
+        "r": 56,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "广丰碉堡3",
+        "nameZh": "广丰碉堡3"
+      },
+      {
+        "q": 43,
+        "r": 52,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "广丰碉堡4",
+        "nameZh": "广丰碉堡4"
+      },
+      {
+        "q": 45,
+        "r": 53,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "广丰碉堡5",
+        "nameZh": "广丰碉堡5"
+      },
+      {
+        "q": 41,
+        "r": 55,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "广丰碉堡6",
+        "nameZh": "广丰碉堡6"
+      },
+      {
+        "q": 32,
+        "r": 49,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "横峰城防核心",
+        "nameZh": "横峰城防核心"
+      },
+      {
+        "q": 33,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "横峰外围工事1",
+        "nameZh": "横峰外围工事1"
+      },
+      {
+        "q": 31,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "横峰外围工事2",
+        "nameZh": "横峰外围工事2"
+      },
+      {
+        "q": 32,
+        "r": 50,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "横峰外围工事3",
+        "nameZh": "横峰外围工事3"
+      },
+      {
+        "q": 32,
+        "r": 48,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "横峰外围工事4",
+        "nameZh": "横峰外围工事4"
+      },
+      {
+        "q": 33,
+        "r": 48,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "横峰外围工事5",
+        "nameZh": "横峰外围工事5"
+      },
+      {
+        "q": 31,
+        "r": 50,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "横峰外围工事6",
+        "nameZh": "横峰外围工事6"
+      },
+      {
+        "q": 34,
+        "r": 49,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "横峰碉堡1",
+        "nameZh": "横峰碉堡1"
+      },
+      {
+        "q": 30,
+        "r": 49,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "横峰碉堡2",
+        "nameZh": "横峰碉堡2"
+      },
+      {
+        "q": 32,
+        "r": 51,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "横峰碉堡3",
+        "nameZh": "横峰碉堡3"
+      },
+      {
+        "q": 32,
+        "r": 47,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "横峰碉堡4",
+        "nameZh": "横峰碉堡4"
+      },
+      {
+        "q": 34,
+        "r": 48,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "横峰碉堡5",
+        "nameZh": "横峰碉堡5"
+      },
+      {
+        "q": 30,
+        "r": 50,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "横峰碉堡6",
+        "nameZh": "横峰碉堡6"
+      },
+      {
+        "q": 26,
+        "r": 50,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "弋阳城防核心",
+        "nameZh": "弋阳城防核心"
+      },
+      {
+        "q": 27,
+        "r": 50,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "弋阳外围工事1",
+        "nameZh": "弋阳外围工事1"
+      },
+      {
+        "q": 25,
+        "r": 50,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "弋阳外围工事2",
+        "nameZh": "弋阳外围工事2"
+      },
+      {
+        "q": 26,
+        "r": 51,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "弋阳外围工事3",
+        "nameZh": "弋阳外围工事3"
+      },
+      {
+        "q": 26,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "弋阳外围工事4",
+        "nameZh": "弋阳外围工事4"
+      },
+      {
+        "q": 27,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "弋阳外围工事5",
+        "nameZh": "弋阳外围工事5"
+      },
+      {
+        "q": 25,
+        "r": 51,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "弋阳外围工事6",
+        "nameZh": "弋阳外围工事6"
+      },
+      {
+        "q": 28,
+        "r": 50,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "弋阳碉堡1",
+        "nameZh": "弋阳碉堡1"
+      },
+      {
+        "q": 24,
+        "r": 50,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "弋阳碉堡2",
+        "nameZh": "弋阳碉堡2"
+      },
+      {
+        "q": 26,
+        "r": 52,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "弋阳碉堡3",
+        "nameZh": "弋阳碉堡3"
+      },
+      {
+        "q": 26,
+        "r": 48,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "弋阳碉堡4",
+        "nameZh": "弋阳碉堡4"
+      },
+      {
+        "q": 28,
+        "r": 49,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "弋阳碉堡5",
+        "nameZh": "弋阳碉堡5"
+      },
+      {
+        "q": 24,
+        "r": 51,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "弋阳碉堡6",
+        "nameZh": "弋阳碉堡6"
+      },
+      {
+        "q": 20,
+        "r": 51,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "贵溪城防核心",
+        "nameZh": "贵溪城防核心"
+      },
+      {
+        "q": 21,
+        "r": 51,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "贵溪外围工事1",
+        "nameZh": "贵溪外围工事1"
+      },
+      {
+        "q": 19,
+        "r": 51,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "贵溪外围工事2",
+        "nameZh": "贵溪外围工事2"
+      },
+      {
+        "q": 20,
+        "r": 52,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "贵溪外围工事3",
+        "nameZh": "贵溪外围工事3"
+      },
+      {
+        "q": 20,
+        "r": 50,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "贵溪外围工事4",
+        "nameZh": "贵溪外围工事4"
+      },
+      {
+        "q": 21,
+        "r": 50,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "贵溪外围工事5",
+        "nameZh": "贵溪外围工事5"
+      },
+      {
+        "q": 19,
+        "r": 52,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "贵溪外围工事6",
+        "nameZh": "贵溪外围工事6"
+      },
+      {
+        "q": 22,
+        "r": 51,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "贵溪碉堡1",
+        "nameZh": "贵溪碉堡1"
+      },
+      {
+        "q": 18,
+        "r": 51,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "贵溪碉堡2",
+        "nameZh": "贵溪碉堡2"
+      },
+      {
+        "q": 20,
+        "r": 53,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "贵溪碉堡3",
+        "nameZh": "贵溪碉堡3"
+      },
+      {
+        "q": 20,
+        "r": 49,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "贵溪碉堡4",
+        "nameZh": "贵溪碉堡4"
+      },
+      {
+        "q": 22,
+        "r": 50,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "贵溪碉堡5",
+        "nameZh": "贵溪碉堡5"
+      },
+      {
+        "q": 18,
+        "r": 52,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "贵溪碉堡6",
+        "nameZh": "贵溪碉堡6"
+      },
+      {
+        "q": 15,
+        "r": 51,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "鹰潭城防核心",
+        "nameZh": "鹰潭城防核心"
+      },
+      {
+        "q": 16,
+        "r": 51,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "鹰潭外围工事1",
+        "nameZh": "鹰潭外围工事1"
+      },
+      {
+        "q": 14,
+        "r": 51,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "鹰潭外围工事2",
+        "nameZh": "鹰潭外围工事2"
+      },
+      {
+        "q": 15,
+        "r": 52,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "鹰潭外围工事3",
+        "nameZh": "鹰潭外围工事3"
+      },
+      {
+        "q": 15,
+        "r": 50,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "鹰潭外围工事4",
+        "nameZh": "鹰潭外围工事4"
+      },
+      {
+        "q": 16,
+        "r": 50,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "鹰潭外围工事5",
+        "nameZh": "鹰潭外围工事5"
+      },
+      {
+        "q": 14,
+        "r": 52,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "鹰潭外围工事6",
+        "nameZh": "鹰潭外围工事6"
+      },
+      {
+        "q": 17,
+        "r": 51,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "鹰潭碉堡1",
+        "nameZh": "鹰潭碉堡1"
+      },
+      {
+        "q": 13,
+        "r": 51,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "鹰潭碉堡2",
+        "nameZh": "鹰潭碉堡2"
+      },
+      {
+        "q": 15,
+        "r": 53,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "鹰潭碉堡3",
+        "nameZh": "鹰潭碉堡3"
+      },
+      {
+        "q": 15,
+        "r": 49,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "鹰潭碉堡4",
+        "nameZh": "鹰潭碉堡4"
+      },
+      {
+        "q": 17,
+        "r": 50,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "鹰潭碉堡5",
+        "nameZh": "鹰潭碉堡5"
+      },
+      {
+        "q": 13,
+        "r": 52,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "鹰潭碉堡6",
+        "nameZh": "鹰潭碉堡6"
+      },
+      {
+        "q": 88,
+        "r": 57,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水城防核心",
+        "nameZh": "丽水城防核心"
+      },
+      {
+        "q": 89,
+        "r": 57,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水外围工事1",
+        "nameZh": "丽水外围工事1"
+      },
+      {
+        "q": 87,
+        "r": 57,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水外围工事2",
+        "nameZh": "丽水外围工事2"
+      },
+      {
+        "q": 88,
+        "r": 58,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水外围工事3",
+        "nameZh": "丽水外围工事3"
+      },
+      {
+        "q": 88,
+        "r": 56,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水外围工事4",
+        "nameZh": "丽水外围工事4"
+      },
+      {
+        "q": 89,
+        "r": 56,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水外围工事5",
+        "nameZh": "丽水外围工事5"
+      },
+      {
+        "q": 87,
+        "r": 58,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水外围工事6",
+        "nameZh": "丽水外围工事6"
+      },
+      {
+        "q": 90,
+        "r": 57,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水碉堡1",
+        "nameZh": "丽水碉堡1"
+      },
+      {
+        "q": 86,
+        "r": 57,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水碉堡2",
+        "nameZh": "丽水碉堡2"
+      },
+      {
+        "q": 88,
+        "r": 59,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水碉堡3",
+        "nameZh": "丽水碉堡3"
+      },
+      {
+        "q": 88,
+        "r": 55,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水碉堡4",
+        "nameZh": "丽水碉堡4"
+      },
+      {
+        "q": 90,
+        "r": 56,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水碉堡5",
+        "nameZh": "丽水碉堡5"
+      },
+      {
+        "q": 86,
+        "r": 58,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水碉堡6",
+        "nameZh": "丽水碉堡6"
+      },
+      {
+        "q": 60,
+        "r": 60,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "仙霞关外围工事1",
+        "nameZh": "仙霞关外围工事1"
+      },
+      {
+        "q": 58,
+        "r": 60,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "仙霞关外围工事2",
+        "nameZh": "仙霞关外围工事2"
+      },
+      {
+        "q": 59,
+        "r": 61,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "仙霞关外围工事3",
+        "nameZh": "仙霞关外围工事3"
+      },
+      {
+        "q": 59,
+        "r": 59,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "仙霞关外围工事4",
+        "nameZh": "仙霞关外围工事4"
+      },
+      {
+        "q": 60,
+        "r": 59,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "仙霞关外围工事5",
+        "nameZh": "仙霞关外围工事5"
+      },
+      {
+        "q": 58,
+        "r": 61,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "仙霞关外围工事6",
+        "nameZh": "仙霞关外围工事6"
+      },
+      {
+        "q": 61,
+        "r": 60,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "仙霞关碉堡1",
+        "nameZh": "仙霞关碉堡1"
+      },
+      {
+        "q": 57,
+        "r": 60,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "仙霞关碉堡2",
+        "nameZh": "仙霞关碉堡2"
+      },
+      {
+        "q": 59,
+        "r": 62,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "仙霞关碉堡3",
+        "nameZh": "仙霞关碉堡3"
+      },
+      {
+        "q": 59,
+        "r": 58,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "仙霞关碉堡4",
+        "nameZh": "仙霞关碉堡4"
+      },
+      {
+        "q": 61,
+        "r": 59,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "仙霞关碉堡5",
+        "nameZh": "仙霞关碉堡5"
+      },
+      {
+        "q": 57,
+        "r": 61,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "仙霞关碉堡6",
+        "nameZh": "仙霞关碉堡6"
+      },
+      {
+        "q": 63,
+        "r": 42,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢州机场城防核心",
+        "nameZh": "衢州机场城防核心"
+      },
+      {
+        "q": 64,
+        "r": 42,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢州机场外围工事1",
+        "nameZh": "衢州机场外围工事1"
+      },
+      {
+        "q": 63,
+        "r": 43,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢州机场外围工事3",
+        "nameZh": "衢州机场外围工事3"
+      },
+      {
+        "q": 63,
+        "r": 41,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢州机场外围工事4",
+        "nameZh": "衢州机场外围工事4"
+      },
+      {
+        "q": 64,
+        "r": 41,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢州机场外围工事5",
+        "nameZh": "衢州机场外围工事5"
+      },
+      {
+        "q": 65,
+        "r": 42,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢州机场碉堡1",
+        "nameZh": "衢州机场碉堡1"
+      },
+      {
+        "q": 61,
+        "r": 42,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢州机场碉堡2",
+        "nameZh": "衢州机场碉堡2"
+      },
+      {
+        "q": 63,
+        "r": 44,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢州机场碉堡3",
+        "nameZh": "衢州机场碉堡3"
+      },
+      {
+        "q": 63,
+        "r": 40,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢州机场碉堡4",
+        "nameZh": "衢州机场碉堡4"
+      },
+      {
+        "q": 65,
+        "r": 41,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢州机场碉堡5",
+        "nameZh": "衢州机场碉堡5"
+      },
+      {
+        "q": 61,
+        "r": 43,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "衢州机场碉堡6",
+        "nameZh": "衢州机场碉堡6"
+      },
+      {
+        "q": 90,
+        "r": 58,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水机场城防核心",
+        "nameZh": "丽水机场城防核心"
+      },
+      {
+        "q": 91,
+        "r": 58,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水机场外围工事1",
+        "nameZh": "丽水机场外围工事1"
+      },
+      {
+        "q": 89,
+        "r": 58,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水机场外围工事2",
+        "nameZh": "丽水机场外围工事2"
+      },
+      {
+        "q": 90,
+        "r": 59,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水机场外围工事3",
+        "nameZh": "丽水机场外围工事3"
+      },
+      {
+        "q": 90,
+        "r": 57,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水机场外围工事4",
+        "nameZh": "丽水机场外围工事4"
+      },
+      {
+        "q": 91,
+        "r": 57,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水机场外围工事5",
+        "nameZh": "丽水机场外围工事5"
+      },
+      {
+        "q": 89,
+        "r": 59,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水机场外围工事6",
+        "nameZh": "丽水机场外围工事6"
+      },
+      {
+        "q": 92,
+        "r": 58,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水机场碉堡1",
+        "nameZh": "丽水机场碉堡1"
+      },
+      {
+        "q": 88,
+        "r": 58,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水机场碉堡2",
+        "nameZh": "丽水机场碉堡2"
+      },
+      {
+        "q": 90,
+        "r": 60,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水机场碉堡3",
+        "nameZh": "丽水机场碉堡3"
+      },
+      {
+        "q": 92,
+        "r": 57,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "丽水机场碉堡5",
+        "nameZh": "丽水机场碉堡5"
+      },
+      {
+        "q": 49,
+        "r": 45,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山机场城防核心",
+        "nameZh": "玉山机场城防核心"
+      },
+      {
+        "q": 50,
+        "r": 45,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山机场外围工事1",
+        "nameZh": "玉山机场外围工事1"
+      },
+      {
+        "q": 49,
+        "r": 46,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山机场外围工事3",
+        "nameZh": "玉山机场外围工事3"
+      },
+      {
+        "q": 49,
+        "r": 44,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山机场外围工事4",
+        "nameZh": "玉山机场外围工事4"
+      },
+      {
+        "q": 50,
+        "r": 44,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山机场外围工事5",
+        "nameZh": "玉山机场外围工事5"
+      },
+      {
+        "q": 47,
+        "r": 45,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山机场碉堡2",
+        "nameZh": "玉山机场碉堡2"
+      },
+      {
+        "q": 49,
+        "r": 47,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山机场碉堡3",
+        "nameZh": "玉山机场碉堡3"
+      },
+      {
+        "q": 49,
+        "r": 43,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山机场碉堡4",
+        "nameZh": "玉山机场碉堡4"
+      },
+      {
+        "q": 47,
+        "r": 46,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "玉山机场碉堡6",
+        "nameZh": "玉山机场碉堡6"
+      },
+      {
+        "q": 109,
+        "r": 13,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "杭州城防核心",
+        "nameZh": "杭州城防核心"
+      },
+      {
+        "q": 110,
+        "r": 13,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "杭州外围工事1",
+        "nameZh": "杭州外围工事1"
+      },
+      {
+        "q": 108,
+        "r": 13,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "杭州外围工事2",
+        "nameZh": "杭州外围工事2"
+      },
+      {
+        "q": 109,
+        "r": 14,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "杭州外围工事3",
+        "nameZh": "杭州外围工事3"
+      },
+      {
+        "q": 109,
+        "r": 12,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "杭州外围工事4",
+        "nameZh": "杭州外围工事4"
+      },
+      {
+        "q": 110,
+        "r": 12,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "杭州外围工事5",
+        "nameZh": "杭州外围工事5"
+      },
+      {
+        "q": 108,
+        "r": 14,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "杭州外围工事6",
+        "nameZh": "杭州外围工事6"
+      },
+      {
+        "q": 111,
+        "r": 13,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "杭州碉堡1",
+        "nameZh": "杭州碉堡1"
+      },
+      {
+        "q": 107,
+        "r": 13,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "杭州碉堡2",
+        "nameZh": "杭州碉堡2"
+      },
+      {
+        "q": 109,
+        "r": 15,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "杭州碉堡3",
+        "nameZh": "杭州碉堡3"
+      },
+      {
+        "q": 109,
+        "r": 11,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "杭州碉堡4",
+        "nameZh": "杭州碉堡4"
+      },
+      {
+        "q": 111,
+        "r": 12,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "杭州碉堡5",
+        "nameZh": "杭州碉堡5"
+      },
+      {
+        "q": 107,
+        "r": 14,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "杭州碉堡6",
+        "nameZh": "杭州碉堡6"
+      },
+      {
+        "q": 118,
+        "r": 21,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "绍兴城防核心",
+        "nameZh": "绍兴城防核心"
+      },
+      {
+        "q": 119,
+        "r": 21,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "绍兴外围工事1",
+        "nameZh": "绍兴外围工事1"
+      },
+      {
+        "q": 117,
+        "r": 21,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "绍兴外围工事2",
+        "nameZh": "绍兴外围工事2"
+      },
+      {
+        "q": 118,
+        "r": 22,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "绍兴外围工事3",
+        "nameZh": "绍兴外围工事3"
+      },
+      {
+        "q": 118,
+        "r": 20,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "绍兴外围工事4",
+        "nameZh": "绍兴外围工事4"
+      },
+      {
+        "q": 119,
+        "r": 20,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "绍兴外围工事5",
+        "nameZh": "绍兴外围工事5"
+      },
+      {
+        "q": 117,
+        "r": 22,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "绍兴外围工事6",
+        "nameZh": "绍兴外围工事6"
+      },
+      {
+        "q": 120,
+        "r": 21,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "绍兴碉堡1",
+        "nameZh": "绍兴碉堡1"
+      },
+      {
+        "q": 116,
+        "r": 21,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "绍兴碉堡2",
+        "nameZh": "绍兴碉堡2"
+      },
+      {
+        "q": 118,
+        "r": 23,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "绍兴碉堡3",
+        "nameZh": "绍兴碉堡3"
+      },
+      {
+        "q": 118,
+        "r": 19,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "绍兴碉堡4",
+        "nameZh": "绍兴碉堡4"
+      },
+      {
+        "q": 120,
+        "r": 20,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "绍兴碉堡5",
+        "nameZh": "绍兴碉堡5"
+      },
+      {
+        "q": 116,
+        "r": 22,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "绍兴碉堡6",
+        "nameZh": "绍兴碉堡6"
+      },
+      {
+        "q": 105,
+        "r": 27,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "诸暨城防核心",
+        "nameZh": "诸暨城防核心"
+      },
+      {
+        "q": 106,
+        "r": 27,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "诸暨外围工事1",
+        "nameZh": "诸暨外围工事1"
+      },
+      {
+        "q": 104,
+        "r": 27,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "诸暨外围工事2",
+        "nameZh": "诸暨外围工事2"
+      },
+      {
+        "q": 105,
+        "r": 28,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "诸暨外围工事3",
+        "nameZh": "诸暨外围工事3"
+      },
+      {
+        "q": 105,
+        "r": 26,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "诸暨外围工事4",
+        "nameZh": "诸暨外围工事4"
+      },
+      {
+        "q": 106,
+        "r": 26,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "诸暨外围工事5",
+        "nameZh": "诸暨外围工事5"
+      },
+      {
+        "q": 104,
+        "r": 28,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "诸暨外围工事6",
+        "nameZh": "诸暨外围工事6"
+      },
+      {
+        "q": 107,
+        "r": 27,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "诸暨碉堡1",
+        "nameZh": "诸暨碉堡1"
+      },
+      {
+        "q": 103,
+        "r": 27,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "诸暨碉堡2",
+        "nameZh": "诸暨碉堡2"
+      },
+      {
+        "q": 105,
+        "r": 29,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "诸暨碉堡3",
+        "nameZh": "诸暨碉堡3"
+      },
+      {
+        "q": 105,
+        "r": 25,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "诸暨碉堡4",
+        "nameZh": "诸暨碉堡4"
+      },
+      {
+        "q": 107,
+        "r": 26,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "诸暨碉堡5",
+        "nameZh": "诸暨碉堡5"
+      },
+      {
+        "q": 103,
+        "r": 28,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "name": "诸暨碉堡6",
+        "nameZh": "诸暨碉堡6"
       }
     ],
     "minefields": [],
-    "wallEdges": [],
+    "wallEdges": [
+      {
+        "from": {
+          "q": 88,
+          "r": 38
+        },
+        "to": {
+          "q": 88,
+          "r": 37
+        },
+        "section": "金华城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 88,
+          "r": 37
+        },
+        "to": {
+          "q": 87,
+          "r": 37
+        },
+        "section": "金华城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 87,
+          "r": 37
+        },
+        "to": {
+          "q": 86,
+          "r": 38
+        },
+        "section": "金华城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 86,
+          "r": 38
+        },
+        "to": {
+          "q": 86,
+          "r": 39
+        },
+        "section": "金华城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 86,
+          "r": 39
+        },
+        "to": {
+          "q": 87,
+          "r": 39
+        },
+        "section": "金华城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 87,
+          "r": 39
+        },
+        "to": {
+          "q": 88,
+          "r": 38
+        },
+        "section": "金华城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 80,
+          "r": 38
+        },
+        "to": {
+          "q": 80,
+          "r": 37
+        },
+        "section": "兰溪城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 80,
+          "r": 37
+        },
+        "to": {
+          "q": 79,
+          "r": 37
+        },
+        "section": "兰溪城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 79,
+          "r": 37
+        },
+        "to": {
+          "q": 78,
+          "r": 38
+        },
+        "section": "兰溪城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 78,
+          "r": 38
+        },
+        "to": {
+          "q": 78,
+          "r": 39
+        },
+        "section": "兰溪城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 78,
+          "r": 39
+        },
+        "to": {
+          "q": 79,
+          "r": 39
+        },
+        "section": "兰溪城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 79,
+          "r": 39
+        },
+        "to": {
+          "q": 80,
+          "r": 38
+        },
+        "section": "兰溪城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 62,
+          "r": 43
+        },
+        "to": {
+          "q": 62,
+          "r": 42
+        },
+        "section": "衢县城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 62,
+          "r": 42
+        },
+        "to": {
+          "q": 61,
+          "r": 42
+        },
+        "section": "衢县城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 61,
+          "r": 42
+        },
+        "to": {
+          "q": 60,
+          "r": 43
+        },
+        "section": "衢县城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 60,
+          "r": 43
+        },
+        "to": {
+          "q": 60,
+          "r": 44
+        },
+        "section": "衢县城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 60,
+          "r": 44
+        },
+        "to": {
+          "q": 61,
+          "r": 44
+        },
+        "section": "衢县城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 61,
+          "r": 44
+        },
+        "to": {
+          "q": 62,
+          "r": 43
+        },
+        "section": "衢县城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 58,
+          "r": 52
+        },
+        "to": {
+          "q": 58,
+          "r": 51
+        },
+        "section": "江山城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 58,
+          "r": 51
+        },
+        "to": {
+          "q": 57,
+          "r": 51
+        },
+        "section": "江山城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 57,
+          "r": 51
+        },
+        "to": {
+          "q": 56,
+          "r": 52
+        },
+        "section": "江山城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 56,
+          "r": 52
+        },
+        "to": {
+          "q": 56,
+          "r": 53
+        },
+        "section": "江山城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 56,
+          "r": 53
+        },
+        "to": {
+          "q": 57,
+          "r": 53
+        },
+        "section": "江山城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 57,
+          "r": 53
+        },
+        "to": {
+          "q": 58,
+          "r": 52
+        },
+        "section": "江山城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 48,
+          "r": 46
+        },
+        "to": {
+          "q": 48,
+          "r": 45
+        },
+        "section": "玉山城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 48,
+          "r": 45
+        },
+        "to": {
+          "q": 47,
+          "r": 45
+        },
+        "section": "玉山城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 47,
+          "r": 45
+        },
+        "to": {
+          "q": 46,
+          "r": 46
+        },
+        "section": "玉山城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 46,
+          "r": 46
+        },
+        "to": {
+          "q": 46,
+          "r": 47
+        },
+        "section": "玉山城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 46,
+          "r": 47
+        },
+        "to": {
+          "q": 47,
+          "r": 47
+        },
+        "section": "玉山城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 47,
+          "r": 47
+        },
+        "to": {
+          "q": 48,
+          "r": 46
+        },
+        "section": "玉山城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 40,
+          "r": 48
+        },
+        "to": {
+          "q": 40,
+          "r": 47
+        },
+        "section": "上饶城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 40,
+          "r": 47
+        },
+        "to": {
+          "q": 39,
+          "r": 47
+        },
+        "section": "上饶城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 39,
+          "r": 47
+        },
+        "to": {
+          "q": 38,
+          "r": 48
+        },
+        "section": "上饶城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 38,
+          "r": 48
+        },
+        "to": {
+          "q": 38,
+          "r": 49
+        },
+        "section": "上饶城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 38,
+          "r": 49
+        },
+        "to": {
+          "q": 39,
+          "r": 49
+        },
+        "section": "上饶城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 39,
+          "r": 49
+        },
+        "to": {
+          "q": 40,
+          "r": 48
+        },
+        "section": "上饶城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 89,
+          "r": 57
+        },
+        "to": {
+          "q": 89,
+          "r": 56
+        },
+        "section": "丽水城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 89,
+          "r": 56
+        },
+        "to": {
+          "q": 88,
+          "r": 56
+        },
+        "section": "丽水城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 88,
+          "r": 56
+        },
+        "to": {
+          "q": 87,
+          "r": 57
+        },
+        "section": "丽水城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 87,
+          "r": 57
+        },
+        "to": {
+          "q": 87,
+          "r": 58
+        },
+        "section": "丽水城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 87,
+          "r": 58
+        },
+        "to": {
+          "q": 88,
+          "r": 58
+        },
+        "section": "丽水城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 88,
+          "r": 58
+        },
+        "to": {
+          "q": 89,
+          "r": 57
+        },
+        "section": "丽水城防墙/街垒线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 900,
+        "maxHp": 900
+      },
+      {
+        "from": {
+          "q": 58,
+          "r": 60
+        },
+        "to": {
+          "q": 59,
+          "r": 60
+        },
+        "section": "仙霞关关隘阻绝工事",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1200,
+        "maxHp": 1200
+      },
+      {
+        "from": {
+          "q": 59,
+          "r": 60
+        },
+        "to": {
+          "q": 60,
+          "r": 60
+        },
+        "section": "仙霞关关隘阻绝工事",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1200,
+        "maxHp": 1200
+      },
+      {
+        "from": {
+          "q": 59,
+          "r": 59
+        },
+        "to": {
+          "q": 59,
+          "r": 60
+        },
+        "section": "仙霞关关隘阻绝工事",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1200,
+        "maxHp": 1200
+      },
+      {
+        "from": {
+          "q": 59,
+          "r": 60
+        },
+        "to": {
+          "q": 59,
+          "r": 61
+        },
+        "section": "仙霞关关隘阻绝工事",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1200,
+        "maxHp": 1200
+      }
+    ],
     "urbanDefenseRules": {
-      "enabled": true
+      "enabled": true,
+      "wallDefense": true,
+      "bunkerDefense": true,
+      "fieldworksDefense": true
     }
   },
   "victoryConditions": {
-    "deadlineTurn": 110,
-    "chinese": {
-      "eliminateEnemy": false,
-      "defendObjectivesUntilDeadline": {
-        "mode": "any",
-        "objectives": [
-          {
-            "q": 61,
-            "r": 43,
-            "id": "quxian",
-            "name": "Quzhou",
-            "nameZh": "衢州"
-          },
-          {
-            "q": 39,
-            "r": 48,
-            "id": "shangrao",
-            "name": "Shangrao",
-            "nameZh": "上饶"
-          },
-          {
-            "q": 88,
-            "r": 57,
-            "id": "lishui",
-            "name": "Lishui",
-            "nameZh": "丽水"
-          }
-        ],
-        "successText": "中国军坚持至会战期限并保存浙赣战区主要抵抗力量，完成战略迟滞任务。"
-      }
-    },
-    "japanese": {
-      "eliminateEnemy": false,
-      "captureObjectives": {
-        "mode": "all",
-        "objectives": [
-          {
-            "q": 61,
-            "r": 43,
-            "id": "quxian",
-            "name": "Quzhou",
-            "nameZh": "衢州"
-          },
-          {
-            "q": 47,
-            "r": 46,
-            "id": "yushan",
-            "name": "Yushan",
-            "nameZh": "玉山"
-          },
-          {
-            "q": 39,
-            "r": 48,
-            "id": "shangrao",
-            "name": "Shangrao",
-            "nameZh": "上饶"
-          },
-          {
-            "q": 32,
-            "r": 49,
-            "id": "hengfeng",
-            "name": "Hengfeng",
-            "nameZh": "横峰"
-          }
-        ],
-        "successText": "日军控制衢州—玉山—上饶—横峰主轴，完成东西对进并打通浙赣线主要区段。"
-      }
-    }
+    "deadlineTurn": 160,
+    "chinese": [],
+    "japanese": []
   },
   "strategicObjectives": {
-    "chinese": [
-      {
-        "id": "hold_quzhou",
-        "name": "保卫衢州",
-        "nameZh": "保卫衢州",
-        "q": 61,
-        "r": 43
-      },
-      {
-        "id": "hold_shangrao",
-        "name": "保卫上饶",
-        "nameZh": "保卫上饶",
-        "q": 39,
-        "r": 48
-      },
-      {
-        "id": "hold_lishui",
-        "name": "保卫丽水机场区",
-        "nameZh": "保卫丽水机场区",
-        "q": 88,
-        "r": 57
-      }
-    ],
-    "japanese": [
-      {
-        "id": "take_quzhou",
-        "name": "攻占衢州",
-        "nameZh": "攻占衢州",
-        "q": 61,
-        "r": 43
-      },
-      {
-        "id": "take_yushan",
-        "name": "攻占玉山",
-        "nameZh": "攻占玉山",
-        "q": 47,
-        "r": 46
-      },
-      {
-        "id": "link_hengfeng",
-        "name": "东西两军会师横峰",
-        "nameZh": "东西两军会师横峰",
-        "q": 32,
-        "r": 49
-      }
-    ]
+    "chinese": [],
+    "japanese": []
   },
   "mapRevision": {
     "scope": "杭州湾西南缘—金华—衢州—上饶—鹰潭—南昌，并向南覆盖丽水、仙霞岭与临川方向",
@@ -20644,6 +24841,7 @@
       "第13军：富阳/萧山/绍兴/上虞/奉化 → 金华兰溪 → 衢州 → 玉山上饶",
       "第11军一部：南昌 → 进贤/东乡/鹰潭贵溪 → 横峰",
       "南翼：龙游/金华方向 → 丽水；衢州 → 江山 → 仙霞岭"
-    ]
+    ],
+    "urbanDefenseUpgrade": "新增城镇标签、外围野战工事、碉堡、核心据点、城防墙/街垒线；重点强化金华、兰溪、衢州、江山、玉山、上饶、丽水、仙霞关及机场。"
   }
 }
